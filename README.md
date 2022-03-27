@@ -11,7 +11,7 @@
 5. Нажимаем F12, либо Ctrl+Shift+I.
 6. Переходим на вкладку Console/Консоль.
 7. В Chrome вводим: fetch('/ok',{method:'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({"user_id": 1, "first_text": "Здесь первый текст для отправки", "second_text": "Здесь второй текст для отправки", "third_text": "Здесь третий текст для отправки"})}).then(console.log)
-   В Mozilla Firefox, если используется первый раз может потребоваться ввести перед запросом: "разрешить вставку", то есть команда при первом вводе будет иметь вид:
+ В Mozilla Firefox, если используется первый раз может потребоваться ввести перед запросом: "разрешить вставку", то есть команда при первом вводе будет иметь вид:
 8. разрешить вставку fetch('/ok',{method:'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({"user_id": 1, "first_text": "Здесь первый текст для отправки", "second_text": "Здесь второй текст для отправки", "third_text": "Здесь третий текст для отправки"})}).then(console.log)
 9. Нажать Enter.
 10. Получить в ответ от сервера наш запрос.
